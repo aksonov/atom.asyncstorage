@@ -1,9 +1,10 @@
 {
   "name": "atom.asyncstorage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "AsyncStorage for Calmm-JS Atom",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "dist": "babel src --source-maps inline --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/aksonov/atom.asyncstorage/issues"
   },
-  "homepage": "https://github.com/aksonov/atom.asyncstorage#readme"
+  "homepage": "https://github.com/aksonov/atom.asyncstorage#readme",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.5.0"
+  }
 }
