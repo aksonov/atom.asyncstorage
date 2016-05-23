@@ -1,0 +1,22 @@
+{
+  "name": "atom.asyncstorage",
+  "version": "0.0.2",
+  "description": "AsyncStorage for Calmm-JS Atom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksonov/atom.asyncstorage.git"
+  },
+  "keywords": [
+    "atom"
+  ],
+  "author": "Pavlo Aksonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aksonov/atom.asyncstorage/issues"
+  },
+  "homepage": "https://github.com/aksonov/atom.asyncstorage#readme"
+}
